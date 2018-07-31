@@ -1,0 +1,159 @@
+/**index.wxss**/
+page {
+	height: 100%;
+  font-size:12px;
+}
+.container {
+	height: 100%;
+}
+scroll-view {
+	height: 100%;
+}
+.search{
+  height:30px;
+  background-color: #ccc;
+}
+.banner {
+  width:100%;
+	height:190px;
+  margin-bottom:10px;
+}
+.banner image {
+	width: 100%;
+	height: 100%;
+}
+
+.icons {
+	height: 370rpx;
+	padding: 20rpx 10rpx;
+	padding-bottom: 0;
+}
+.icons swiper-item {
+	width: 100%;
+	/*display: -webkit-flex;*/
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content: center;*/
+}
+.icons .icon {
+	float: left;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 25%;
+	text-align: center;
+	margin: 10rpx 0;
+}
+.icons .icon image {
+	margin: 0 auto;
+	width: 100rpx;
+	height: 100rpx;
+}
+.icons .icon text {
+	color: #000;
+	font-size: 24rpx;
+	line-height: 2;
+}
+
+.libs{
+ height:750px;
+}
+.libs .lib{
+ border:1px solid #ccc;
+ background-color:#fff;
+ float:left;
+ display:-webkit-flex;
+ flex-direction:column;
+ flex-wrap:wrap;
+ width:49%;
+ text-align:center;
+ margin:10rpx 0;
+ border-radius: 15px;
+}
+
+.libs .lib image{
+  margin:0 auto;
+	width: 320rpx;
+	height: 300rpx;
+}
+.libs .lib text {
+  margin-left:10px;
+  text-align:left;
+  float:left;
+	color: #000;
+	font-size: 12px;
+	line-height: 2;
+}
+.libs .lib .price{
+  color:red;
+  font-size:10px;
+}
+.libs .lib p{
+	color: red;
+	font-size: 28rpx;
+	line-height: 2;
+}
+.section-big {
+	padding: 20rpx;
+}
+.section-big .title {
+	position: relative;
+	text-align: center;
+	font-size: 32rpx;
+	font-weight: bold;
+	line-height: 2;
+	margin-bottom: 20rpx;
+}
+.section-yewu .title {
+	position: relative;
+	font-size: 32rpx;
+	font-weight: bold;
+	line-height: 2;
+	margin-bottom: 20rpx;
+}
+
+.section-big .title:before {
+	content: " ";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -180rpx;
+	width: 100rpx;
+	height: 1rpx;
+	background: #000;
+}
+.section-big .title:after {
+	content: " ";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: 80rpx;
+	width: 100rpx;
+	height: 1rpx;
+	background: #000;
+}
+
+.discount .content {
+	width: 100%;
+	height: 450rpx;
+}
+
+.preferred .content {
+	width: 100%;
+	height: 556rpx;
+}
+.lianxi{
+  background-color:#fff;
+  height:100px;
+  text-align:center;
+}
+
+.row{
+  height:50px;
+  background-color: #fff;
+}
+.row image {
+	margin: 0 auto;
+	width: 100rpx;
+	height: 100rpx;
+}

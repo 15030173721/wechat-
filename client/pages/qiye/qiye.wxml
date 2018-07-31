@@ -1,0 +1,25 @@
+<!--pages/qiye/qiye.wxml-->
+<view class="container">
+<scroll-view scroll-y="true" scroll-into-view="{{scrollIntoView}}" bindscroll="onScroll">
+   <view class="jianjie">
+     <image  src="http://p7vkeyn2h.bkt.clouddn.com/logo.jpg"/>
+   </view> 
+  <!--业务-->
+  <view class="qiye">
+    <view class="te_y"><text>——  北京华视风行文化传媒有限公司  —— </text></view>
+    <view class="te_w">
+      <text class="line1">北京华视风行文化传媒有限公司，简称华视风行（Vision china funshion Media）。华视风行致力于传媒和教育两大业务，坚持传媒和教育双线并行。\n</text>
+
+    <text class="line2">自成立以来，受到网易新闻中心、中国网、每日甘肃、东北新闻网、齐鲁晚报、河南网、汉丰网、华声四海、元氏新闻网等全国多家媒体采访报道。\n</text>
+
+<text class="line3">华视风行文化传媒有限公司将引领中国民营影视团体走向新发展，将和时代一起为中国文化传媒行业编织起通向未来的美好版图。\n</text>
+    
+<text class="line4">华视风行，风行百年！</text>
+</view>
+    <view class="te_b">
+     <image class="img" src="http://p7vkeyn2h.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180614183655.jpg"/> 
+   </view>
+  </view>
+ 
+</scroll-view>
+  </view>

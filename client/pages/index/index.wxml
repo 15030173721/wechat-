@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="container">
+
+<scroll-view scroll-y="true" scroll-into-view="{{scrollIntoView}}" bindscroll="onScroll">
+<!--search-->
+<!-- <view class="search">搜索</view> -->
+
+<!--banner图-->
+<swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+		<block wx:for="{{banners}}" wx:key="id">
+			<swiper-item>
+				<image bindtap="tapBanner" data-id="{{index}}" src="{{item.img}}"/>
+			</swiper-item>
+		</block>
+</swiper>
+<!--banner图-->
+
+<!--类型icons--> 
+<swiper class="section icons" autoplay="" interval="" duration="500">
+	<swiper-item wx:for="{{icons}}" wx:for-item="list" wx:key="id">
+	
+    <view class="icon" wx:for="{{list}}" wx:for-item="icon" wx:key="id" bindtap="toNearby">
+		  
+  <navigator url="{{icon.url}}">	
+        <image src="{{icon.img}}"/>
+  </navigator> 
+       
+				<text>{{icon.name}}</text>      
+		</view>
+
+	</swiper-item>
+</swiper>
+<!--类型icons--> 
+
+<!--摄像器材列表-->
+<view class=" libs section-big discount">
+  <view wx:for="{{libs}}" wx:for-item="list" wx:key="id">
+		
+    <view class="title">器材租赁</view>
+		
+
+    <view class="lib" wx:for="{{list}}" wx:for-item="lib" wx:key="id">
+     <navigator url="">
+      <image src="{{lib.img}}"/>
+     </navigator> 
+			<text>{{lib.name}}</text>
+			<text class="price">{{lib.price}}</text>
+    
+ 
+    </view>
+
+    
+    
+  </view>   
+
+</view>
+
+
+
+
+
+</scroll-view>
+
+</view>
+

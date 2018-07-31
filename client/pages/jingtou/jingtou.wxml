@@ -1,0 +1,30 @@
+<!--pages/jingtou/jingtou.wxml-->
+<view class="container">
+ <scroll-view scroll-y="true">
+    <view class="banner">
+      <image src="http://p7vkeyn2h.bkt.clouddn.com/%E9%95%9C%E5%A4%B4.jpg"></image>
+    </view>
+
+  <view class="tab">
+     <text>镜头器材租赁</text>
+  </view>
+
+<!--摄像器材列表-->
+<view class=" libs section-big discount">
+  <view wx:for="{{libs}}" wx:for-item="list" wx:key="id">
+    <view class="lib" wx:for="{{list}}" wx:for-item="lib" wx:key="id">
+      <image src="{{lib.img}}"/>
+			<text>{{lib.name}}</text>
+			<text class="price">{{lib.price}}</text>
+    </view>
+    
+  </view>   
+
+</view>
+
+
+ </scroll-view>
+
+</view>
+
+

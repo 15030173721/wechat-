@@ -1,0 +1,66 @@
+/* pages/mine/mine.wxss */
+page {
+	height: 100%;
+}
+.container {
+	height: 100%;
+}
+scroll-view {
+	height: 100%;
+}
+.jianjie{
+  width:100%;
+  height:190px;
+  margin-bottom:5px;
+}
+.jianjie image{
+  width:100%;
+  height:100%;
+}
+.lx_vie{
+  width:100%;
+  height:40px;
+  text-align:right;
+}
+.lx_vie button{
+  width: 100%;
+  height: 40px;
+  display: block;
+  background-color: #fff;
+}
+.lx_vie button .text-1{
+  display: block;
+  float: left;
+  font-size:14px;
+  font-weight: bold;
+}
+.lx_vie button .text-2{
+  display: block;
+  float: right;
+  font-size:14px;
+  line-height: 40px;
+}
+
+.yewu{
+  height:150px;
+  background-color:#fff;
+}
+.yewu text{
+  line-height:30px;
+}
+.yewu .te_y{
+  font-size:14px;
+  font-weight: bold;
+  margin-left:15px;
+  margin-top:10px;
+}
+.yewu .te_w{
+  margin-left:45px;
+  font-size:14px;
+}
+
+.dizhi{
+  width:100%;
+  height:300px;
+  background-color:#CCC;
+}

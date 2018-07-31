@@ -1,0 +1,69 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+<scroll-view scroll-y="true" scroll-into-view="{{scrollIntoView}}" bindscroll="onScroll">
+   <view class="jianjie">
+     <image  src="http://p7vkeyn2h.bkt.clouddn.com/wx.banner1.jpg"/>
+   </view> 
+  <!--业务-->
+  <view class="yewu">
+    <view class="te_y"><text>公司业务：</text></view>
+    <view class="te_w"><text>宣传片制作，会议晚会拍摄，大型活动录制，录课室出租，影视器材租赁，视频拍摄剪辑制作。专业的影视化拍摄，贴心的全方位服务，欢迎咨询洽谈!
+    </text></view>
+  </view>
+ 
+    <view class='lx_vie'>
+      <button class="vie" bindtap="callTap">
+        <text class='text-1'>联系电话：</text>
+        <text class='text-2'>18513127642 ></text>
+      </button>
+    </view>
+
+    <view class='lx_vie'>
+      <button class="vie" bindtap="callaTap">
+        <text class='text-1'>上海电话：</text>
+        <text class='text-2'>17521049912 ></text>
+      </button>
+    </view>
+     
+     <view class='lx_vie'>
+      <button class="vie" bindtap="callsTap">
+        <text class='text-1'>公司座机：</text>
+        <text class='text-2'>010-8210 1099 ></text>
+      </button>
+    </view>
+
+    <view class='lx_vie'>
+      <button class="vie" bindtap="Location">
+        <text class='text-1'> 总部地址：</text>
+        <text class='text-2'>海淀区知春路豪景大厦B座1401 ></text>
+      </button>
+    </view>
+    <view class='lx_vie'>
+      <button class="vie" bindtap="Location2">
+        <text class='text-1'> 朝阳地址：</text>
+        <text class='text-2'>朝阳区定福庄东街3#2单元102></text>
+      </button>
+    </view>
+    <view class='lx_vie'>
+      <button class="vie" bindtap="Location3">
+        <text class='text-1'> 国贸地址：</text>
+        <text class='text-2'>朝阳区建外soho东区2#701室 ></text>
+      </button>
+    </view>
+    <view class='lx_vie'>
+      <button class="vie" bindtap="Location4">
+        <text class='text-1'> 角门地址：</text>
+        <text class='text-2'>丰台区马家堡西路24号院1#5102 ></text>
+      </button>
+    </view>
+    <view class='lx_vie'>
+      <button class="vie" bindtap="Location5">
+        <text class='text-1'> 上海地址：</text>
+        <text class='text-2'>徐汇区中山西路华鼎大厦1104 ></text>
+      </button>
+    </view>
+
+
+
+</scroll-view>
+  </view>

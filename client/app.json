@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/libs/libs",
+    "pages/jingtou/jingtou", 
+    "pages/wrj/wrj",
+    "pages/luyin/luyin",
+    "pages/dengguang/dengguang",
+    "pages/fuzhu/fuzhu",
+    "pages/haocai/haocai",
+    "pages/qita/qita",  
+    "pages/shexiang/shexiang",
+    "pages/danfan/danfan",
+    "pages/sheying/sheying",
+    "pages/xundao/xundao",
+    "pages/qiye/qiye",
+    "pages/addCgi/addCgi"
+  ],
+  "window":{
+    "backgroundColor":"#ccc",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "摄影器材租赁",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#878787",
+    "selectedColor":"#000",
+    "borderStyle": "black",
+    "backgroundColor": "#fcfcfc",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "iconPath":"images/tabBar/home_1.png",
+      "selectedIconPath":"images/tabBar/home_1.png",
+      "text":"首页"
+    },{
+      "pagePath": "pages/qiye/qiye",
+      "iconPath": "images/tabBar/qiye.png",
+      "selectedIconPath": "images/tabBar/qiye.png",
+      "text": "华视风行"
+    },
+    
+    {
+      "pagePath":"pages/mine/mine",
+      "iconPath": "images/tabBar/mine_2.png",
+    "selectedIconPath":"images/tabBar/mine_1.png",
+      "text": "联系我们"
+    }]
+  }
+ 
+}

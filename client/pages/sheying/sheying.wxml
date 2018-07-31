@@ -1,0 +1,35 @@
+<!--pages/sheying/sheying.wxml-->
+<!--pages/libs/libs.wxml-->
+<view class="container">
+ <scroll-view scroll-y="true">
+    <view class="banner">
+      <image src="http://p7vkeyn2h.bkt.clouddn.com/%E6%9C%BA%E8%BA%AB.jpg"></image>
+    </view>
+
+  <view class="tab">
+    <button type="default" bindtap="shexiang">摄像机</button>
+    
+
+    <button type="default" bindtap="danfan">单反</button>
+    <button type="default" bindtap="sheying">摄影机</button>
+    <button type="default" bindtap="xundao">讯道类</button>
+  </view>
+
+<!--摄像器材列表-->
+<view class=" libs section-big discount">
+  <view wx:for="{{libs}}" wx:for-item="list" wx:key="id">
+    <view class="lib" wx:for="{{list}}" wx:for-item="lib" wx:key="id">
+      <image src="{{lib.img}}"/>
+			<text>{{lib.name}}</text>
+			<text class="price">{{lib.price}}</text>
+    </view>
+    
+  </view>   
+
+</view>
+
+
+ </scroll-view>
+
+</view>
+
